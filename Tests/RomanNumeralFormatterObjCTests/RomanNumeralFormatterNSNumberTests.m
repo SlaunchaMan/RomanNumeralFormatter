@@ -13,6 +13,7 @@
 @interface RomanNumeralFormatterNSNumberTests : XCTestCase
 
 - (void)testAllNumberFormats;
+- (void)testLargeNumberFormatting;
 
 @end
 
