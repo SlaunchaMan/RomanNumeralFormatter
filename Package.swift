@@ -6,7 +6,9 @@ let package = Package(
     products: [
         .library(
             name: "RomanNumeralFormatter",
-            targets: ["RomanNumeralFormatter"]
+            targets: [
+                "RomanNumeralFormatter"
+            ]
         ),
     ],
     dependencies: [
@@ -24,11 +26,15 @@ let package = Package(
         ),
         .testTarget(
             name: "RomanNumeralFormatterTests",
-            dependencies: ["RomanNumeralFormatter"]
+            dependencies: [
+                "RomanNumeralFormatter"
+            ]
         ),
         .testTarget(
             name: "RomanNumeralFormatterObjCTests",
-            dependencies: ["RomanNumeralFormatter"]
+            dependencies: [
+                "RomanNumeralFormatter"
+            ]
         ),
     ]
 )
