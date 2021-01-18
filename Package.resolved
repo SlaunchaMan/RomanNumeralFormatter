@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IsNotEmpty",
+        "repositoryURL": "https://github.com/SlaunchaMan/IsNotEmpty.git",
+        "state": {
+          "branch": null,
+          "revision": "57d6ca060e4a1e9bf8ce47738a1ed09f1f951a0e",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
